@@ -1,0 +1,50 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title: "Petra Kolarič"
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "Combining business and creativity is what I do the best. Bachelor's degree in Fashion Design, & international experiences from last employments, projects and volunteering at conferences, seminars abroad Europe.
+              I am aware of the priorities that must be completed in a timely manner. I am a communicative confident person, polite, and respectful with a positive attitude and ability to perform various tasks. Fast at solving problems, thinking strategically, and able to motivate the team."
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl: 
+# baseurl: https://beingeorge.com/lancer-jekyll
+
+navigation:
+- text: Home
+  url: /#home
+- text: about
+  url: /#about
+- text: services
+  url: /#services
+- text: Works
+  url: /#portfolio
+- text: Blog
+  url: /#blog
+- text: Contact
+  url: /#contact
+
+sass:
+  sass_dir: _sass
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "https://petrakolaric.com"
+
+# The shortname for your Disqus site to enable comments.
+disqus:
+
+# Author information - author info at the bottom of the post
+author_name: "Petra Kolarič"
+
+# Social links in the site footer
+twitter_username: "username"
+facebook_username: "username"
+googleplus_username: "+username"
+pinterest_username: "username"
+linkedin_username: "username"
