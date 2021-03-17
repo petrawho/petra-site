@@ -81,15 +81,13 @@ layout: default
 
 <section id="blog" class="module module-gray blog">
 	<div class="container">
-
 		<div class="module-header">
 			<h2 class="module-title"> Recent Blog </h2>
 			<div class="module-line"></div>
 		</div>
 
 		<div class="row">
-
-        	{% for post in site.posts limit:3 %}
+			{% for post in site.posts limit:3 %}
 				<div class="col-md-4">
 					<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
 						<div class="blogList-img">
@@ -111,7 +109,6 @@ layout: default
 			<div class="col-md-12">
 				<a class="blog-viewMore" href="{{site.baseurl}}/blog.html">VIEW MORE</a>
 			</div>
-
 		</div><!-- .row -->
 	</div><!-- .container -->
 </section>
