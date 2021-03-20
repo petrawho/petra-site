@@ -465,17 +465,7 @@ textarea.form-control {
 	color: #5b5963;
 }
 
-.module-title:after {
-    content: "}";
-    color: #3196f3;
-}
-
-.module-title:before {
-    content: "{";
-    color: #3196f3;
-}
-
-.module-title span{
+.module-title span {
 	font-size: 100px;
 	position: absolute;
 	left: 0;
