@@ -25,8 +25,8 @@ navigation:
   url: /#services
 - text: Works
   url: /#portfolio
-- text: Blog
-  url: /#blog
+#- text: Blog
+#  url: /#blog
 - text: Contact
   url: /#contact
 
