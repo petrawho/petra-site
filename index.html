@@ -508,7 +508,7 @@ layout: default
 
 				<div class="col-md-6 offset-md-3">
 
-					<form id="contact-form" action="#">
+					<form id="contact-form" action="mailto:petra.kolaricc@gmail.com" method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
 						<div class="ajax-hidden">
 							<div class="form-group wow fadeInUp">
 								<label class="sr-only" for="c_name">Name</label>
@@ -524,7 +524,7 @@ layout: default
 								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message" required></textarea>
 							</div>
 
-							<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Send Message
+							<button type="submit" value="Submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Send Message
 							</button>
 						</div>
 						<div class="ajax-response"></div>
