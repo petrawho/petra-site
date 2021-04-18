@@ -108,29 +108,4 @@ new WOW().init();
 
 $('body').fitVids();
 
-
-/* ---------------------------------------------- /*
-* Particles js init
-/* ---------------------------------------------- */
-
-window.onload = function() {
-
-	if ($('.background').length > 0) {
-		
-		Particles.init({
-			selector: '.background'
-		});
-
-	}
-};
-
-/* ---------------------------------------------- /*
-* Youtube Video Player - init
-/* ---------------------------------------------- */
-
-if ($('.youtube-bg').length > 0) {
-	$(".youtube-bg").mb_YTPlayer();
-}
-
-
 })(jQuery);
