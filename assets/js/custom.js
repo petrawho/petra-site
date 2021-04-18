@@ -86,18 +86,6 @@ $('.testimonials').owlCarousel({
 
 var $portfolioContainer = $('.list-items-container');
 
-$('#filter li').on('click', function (e) {
-	e.preventDefault();
-
-	$('#filter li').removeClass('active');
-	$(this).addClass('active');
-
-	var group = $(this).attr('data-group');
-	var groupName = $(this).attr('data-group');
-
-	$portfolioContainer.shuffle('shuffle', groupName );
-});
-
 $(document).ready(function() {
 
 $('.simple-ajax-popup').magnificPopup({

@@ -15,12 +15,22 @@
 		// Adds visibility: visible;
 		$projectsContainer.addClass('images-loaded');
 
-		// Initialize shuffle
-		$projectsContainer.shuffle({
-			itemSelector: '.list-item',
-			delimeter: ' '
-		});
+        var Shuffle = window.Shuffle;
+        var shuffleInstance = new Shuffle($projectsContainer, {
+            itemSelector: '.list-item',
+            delimeter: ' ',
+            group: 'every',
+        });
 
+        $('#filter li').on('click', function (e) {
+        	e.preventDefault();
+
+        	$('#filter li').removeClass('active');
+        	$(this).addClass('active');
+
+        	var groupName = $(this).attr('data-group');
+            shuffleInstance.filter(groupName);
+        });
 	};
 
 	return {
