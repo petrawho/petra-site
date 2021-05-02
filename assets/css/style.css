@@ -508,6 +508,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .home-banner {
+	height: 100vh;
 	background: url("../images/header/header-4.jpg");
 	background-color: #5b5963;
 	background-attachment: fixed;
@@ -1839,6 +1840,13 @@ figure {
 }
 
 @media (max-width: 767px) {
+	.home-banner {
+		height: calc(100vh - 130px);
+	}
+
+	.intro {
+		top: 50%;
+	}
 
 	.module {
 		padding: 80px 0;

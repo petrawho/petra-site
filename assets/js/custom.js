@@ -53,11 +53,11 @@ $('body').scrollspy({
 * Background image.
 /* ---------------------------------------------- */
 
-$(".js-height-full").height($(window).height());
+//$(".js-height-full").height($(window).height());
 
-$(window).resize(function(){
-	$(".js-height-full").height($(window).height());
-});
+//$(window).resize(function(){
+//	$(".js-height-full").height($(window).height());
+//});
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
 	$('#home').css({'background-attachment': 'scroll'});
