@@ -413,7 +413,7 @@ textarea.form-control {
 .module-image h4,
 .module-image h5,
 .module-image h6 {
-	color: #fff;
+	color: #5b5963;
 }
 
 .paddingb-none {
@@ -508,7 +508,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .home-banner {
-	background: url("../images/petra-header-new.jpg");
+	background: url("../images/header/header-1.jpg");
 	background-color: #5b5963;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -626,10 +626,10 @@ textarea.form-control {
 .intro:before {
     content: "";
     position: absolute;
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 160px;
     border-radius: 69% 37% 50% 50%/70% 68% 32% 30%;
-    background-color: #000;
+    background-color: #fff;
     top: 10%;
     left: -10px;
     z-index: -1;
